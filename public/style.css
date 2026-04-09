@@ -1,0 +1,39 @@
+body {
+  background: #0b0b0f;
+  color: white;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.image-box {
+  width: 260px;
+  height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(255, 31, 76, 0.3);
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #ff1f4c;
+  border: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
