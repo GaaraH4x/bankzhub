@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/api";
+const API = "https://bankz-hub.onrender.com/api";
 
 // UPDATE HERO
 async function updateContent() {
