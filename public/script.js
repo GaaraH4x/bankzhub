@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/api";
+const API = "https://bankz-hub.onrender.com/api";
 
 async function loadContent() {
   const res = await fetch(`${API}/content`);
