@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+<h1>Admin Dashboard</h1>
+
+<!-- HERO CONTENT -->
+<section>
+  <h2>Edit Hero</h2>
+  <input id="name" placeholder="Name">
+  <input id="tagline" placeholder="Tagline">
+  <input id="hook" placeholder="Hook">
+  <button onclick="updateContent()">Update</button>
+</section>
+
+<!-- IMAGE UPLOAD -->
+<section>
+  <h2>Upload Image</h2>
+  <input type="file" id="imageFile">
+  <button onclick="uploadImage()">Upload</button>
+</section>
+
+<!-- ADD PROJECT -->
+<section>
+  <h2>Add Project</h2>
+  <input id="pTitle" placeholder="Title">
+  <input id="pDesc" placeholder="Description">
+  <input id="pLink" placeholder="Link">
+  <input id="pImage" placeholder="Image URL">
+  <button onclick="addProject()">Add Project</button>
+</section>
+
+<!-- ADD SOCIAL -->
+<section>
+  <h2>Add Social</h2>
+  <input id="sName" placeholder="Platform (Telegram, X)">
+  <input id="sLink" placeholder="Link">
+  <button onclick="addSocial()">Add Social</button>
+</section>
+
+<script src="admin.js"></script>
+</body>
+</html>
